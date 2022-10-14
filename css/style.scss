@@ -276,10 +276,13 @@ header {
 
 .partner {
   padding: 50px 20px;
-  background-color: #e9faff;
+  // background-color: #e9faff;
   border-radius: 8px;
   display: flex;
   margin-bottom: 20px;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
   .partnerIcon {
     width: 80px;
     padding: 20px;
@@ -294,11 +297,11 @@ header {
       height: 48px;
     }
   }
-  .btn {
-    background-color: #a8ebff;
-    color: $black-color;
-    box-shadow: 0px 6px 0px #5db1ca;
-  }
+  // .btn {
+  //   background-color: #a8ebff;
+  //   color: $black-color;
+  //   box-shadow: 0px 6px 0px #5db1ca;
+  // }
   .data {
     padding-right: 0px 25px;
     width: 100%;

@@ -270,10 +270,14 @@ header .container {
 
 .partner {
   padding: 50px 20px;
-  background-color: #e9faff;
   border-radius: 8px;
   display: flex;
   margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .partner {
+    text-align: center;
+  }
 }
 .partner .partnerIcon {
   width: 80px;
@@ -288,11 +292,6 @@ header .container {
 .partner .partnerIcon .icon {
   width: 48px;
   height: 48px;
-}
-.partner .btn {
-  background-color: #a8ebff;
-  color: #434340;
-  box-shadow: 0px 6px 0px #5db1ca;
 }
 .partner .data {
   padding-right: 0px 25px;
