@@ -9,7 +9,6 @@
   margin: 0;
   padding: 0;
   outline: none;
-  direction: rtl;
   color: #434340;
   scroll-behavior: smooth;
 }
@@ -124,7 +123,7 @@ content {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 4px;
-  margin-left: 8px;
+  margin-right: 8px;
 }
 .dropdown:hover .dropdown-content {
   opacity: 1;
@@ -146,7 +145,7 @@ content {
 }
 
 .me-2 {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 header {
@@ -222,7 +221,7 @@ header .container {
   background-position: center;
 }
 .download .data {
-  padding-right: 0px 25px;
+  padding-left: 0px 25px;
   width: 100%;
 }
 .download .data h1 {
@@ -287,14 +286,14 @@ header .container {
   min-height: 150px;
   border-radius: 8px;
   background: linear-gradient(#a8ebff, #e9faff);
-  margin-left: 20px;
+  margin-right: 20px;
 }
 .partner .partnerIcon .icon {
   width: 48px;
   height: 48px;
 }
 .partner .data {
-  padding-right: 0px 25px;
+  padding-left: 0px 25px;
   width: 100%;
 }
 .partner .data h1 {
@@ -452,4 +451,4 @@ p {
 p {
     font-size: 14px !important;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style_en.css.map */
